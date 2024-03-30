@@ -1,0 +1,151 @@
+.counseling{
+    text-align: center;
+
+   
+}
+main{
+    margin-left: 20px;
+}
+.agreement-input1{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-right: 3%;
+}
+.counselor-input1{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.date,.student-address,.student-cellphone,.father-name,.mothers-name,.guardian-name{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.student-address{
+    width: 50%;
+}
+input{
+    background-color: whitesmoke;
+}
+.father,.father-cell{
+    display: inline-block;
+}
+.mother,.mother-cell{
+    display: inline-block;
+
+}
+.guardian,.guardian-cell{
+    display: inline-block;
+}
+.father-cellphone,.mother-cellphone,.guardian-cellphone{
+    border: none;
+    border-bottom: 1px solid black;
+ 
+}
+.father,.mother,.guardian{
+    margin-right: 20px;
+}
+.father-cell{
+    margin-left: 15px;
+}
+.mother-cell{
+    margin-left: 12px;
+}
+
+.mutual-agreement{
+    text-align: justify;
+}
+.mutual-agreement::first-letter{
+    margin-left: 45px;
+
+}
+.counselor1{
+    text-align: justify;    
+}
+.telephone,.cellphone{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.counselor1::first-letter{
+    margin-left: 45px;
+    text-align: justify;
+}
+.confidentiality1::first-letter{
+    margin-left: 45px;
+}
+.confidentiality1{
+text-align: justify;
+}
+.exception1::first-letter{
+    margin-left: 45px;
+}
+.day-week,.time{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.counseling-session::first-letter{
+    margin-left: 45px;
+}
+.counseling-session{
+    text-align: justify;
+}
+.termination1::first-letter{
+    margin-left: 45px;
+
+}
+.termination1{
+    text-align: justify;
+
+}
+.please-read-carefully::first-letter{
+    margin-left:45px;
+}
+.please-read-carefully{
+    text-align: justify;
+}
+.student-name,.counselor-name{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 30%;
+}
+.done,.day,.year{
+border: none;
+border-bottom: 1px solid black;
+}
+.year{
+    width: 2%;
+}
+.smcc{
+    text-align: center;
+    color: purple;
+    font-size: x-large;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.logo{
+    width: 60px;
+}
+.socotec{
+    width: 100px;
+}
+.smcc-header{
+    margin-left: auto;
+    margin-right: auto;
+}
+.smcc-address-tel{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+   
+}
+footer{
+    text-align: center;
+}
+.guidance-logo{
+    margin-right: 7px;
+    width: 25px;
+}

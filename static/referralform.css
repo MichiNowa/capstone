@@ -1,0 +1,153 @@
+h1{
+    text-align: center;
+}
+.client-name{
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+}
+.grade-level-section{
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 10px;
+}
+.clientname,.gradelevelsection{
+    display: inline;
+}
+.gradelevelsection{
+    margin-left: 20px;
+}
+.class-adviser{
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+}
+.course-year{
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+}
+.department{
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+}
+.dept{
+    margin-left: 20px;
+
+}
+.courseyear,.dept{
+    display: inline;
+
+}
+.teacher-text,.self-text,.dean-text,.principal-text,.parent-text,.classmate-text{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 20px;
+}
+.referredby{
+    display: inline;
+    padding: 15px;
+}
+.low-text,.high-text,.emergency-text{
+    display: inline;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 20px;
+}
+.reason-for-referral{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 90%;
+
+}
+.brief-description-of-the-reason{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 90%;
+}
+.signature-over-printed-name{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+.signature{
+    text-align: center;
+}
+.right{
+    border: none;
+    border-bottom: 1px solid;
+    float: right;
+}
+h2{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding:3px ;
+}
+.initial-date-seen-by-counselor{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 20%;
+}
+.counselor{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 15%;
+}
+.outcome{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+.no,.yes{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 20px;
+    
+}
+.agreed,.time{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 110px;
+}
+.smcc{
+    text-align: center;
+    color: purple;
+    font-size: x-large;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.logo{
+    width: 60px;
+}
+.socotec{
+    width: 100px;
+
+}
+.smcc-header{
+    margin-left: auto;
+    margin-right: auto;
+}
+.smcc-address-tel{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+main{
+    margin-left:20px ;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+   
+}
+footer{
+    text-align: center;
+}
+.guidance-logo{
+    margin-right: 7px;
+    width: 25px;
+}

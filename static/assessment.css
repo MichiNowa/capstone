@@ -1,0 +1,71 @@
+h1,h2{
+    text-align: center;
+}
+.ACADEMIC,.PHYSICALHEALTH{
+display: inline-flex;
+
+}
+.RELATIONSHIPS,.FAMILY{
+display: inline-flex;
+
+}
+.FAMILY{
+    margin-left: 70px ;
+}
+.FINANCIAL,.PERSONALITY{
+    display: inline-flex;
+}
+.PERSONALITY{
+    margin-left: 105px ;
+}
+hr{
+    text-decoration-line: black;
+}
+.smcc{
+    text-align: center;
+    color: purple;
+    font-size: x-large;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.logo{
+    width: 60px;
+}
+.socotec{
+    width: 100px;
+
+}
+.smcc-header{
+    margin-left: auto;
+    margin-right: auto;
+}
+.smcc-address-tel{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+   
+}
+footer{
+    text-align: center;
+}
+.guidance-logo{
+    margin-right: 7px;
+    width: 25px;
+}
+.concern-problem-input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 90%;
+}
+input{
+    background-color: whitesmoke;
+}
+main{
+    margin-left: 20px;
+}

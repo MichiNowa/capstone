@@ -1,0 +1,327 @@
+
+.grade-year,.school-year{
+    border: none;
+    border-bottom: 1px solid black;
+}
+h1{
+    text-align: center;
+}
+.educational-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    text-align: center;
+}
+th{
+    background-color: plum;
+  
+}
+
+
+
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+.sem{
+    display: inline;
+    margin: 3px;
+}
+.surname-inline{
+    text-align: center;
+}
+
+
+.academic-year,.course-program,.college-of{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.school-year{
+    width: 100px;
+}
+
+.tab1{    margin-left: auto;
+    margin-right: auto; 
+    border: none;
+    box-shadow: none;
+}
+   
+
+select,option{
+    font-size: 15px;
+}
+
+.course-program,.academic-year,.grade-year{
+    width:100px;
+}
+.basiceducation1{
+    padding: 3px;
+}
+.img{
+    width: 100px;
+}
+
+.basiceducation,.collegeeducation{
+    margin: 5px;
+    display: inline-block;
+}
+.collegeeducation,.check-first-second-summer,.acedemicyear,.courseprogram,.collegeof{
+    padding: 3px;
+}
+.sur-name{
+    display: inline-block;
+    text-align: center;
+}
+.surname,.middlename,.givenname,.auxiliary{
+    border:none;
+    border-bottom: 1px solid black ;
+    text-align: center;
+}
+table,tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    
+}
+.gender-td,.civilstatus-td{
+    width: 9%;
+}
+.height-td,.weight-td{
+    width: 7%;
+}
+.age-td,.bloodtype-td{
+    width:4.5%;
+}
+.gender-input,.age-input,.height-input,.weight-input,.bloodtype-input,.civilstatus-input{
+    border: none;
+    width: 100%;
+}
+.homeaddress-td{
+  width: 55%;
+}
+
+.homeaddress-input{
+    border: none;
+    width: 100%;
+}
+.citizenship-td{
+    width: 15%;
+}
+.citizenship-input{
+    border: none;
+    width: 100%;
+}
+.dateofbirth-input{
+    border: none;
+    width: 100%;
+}
+.contactno-input{
+    border: none;
+    width: 100%;
+}
+.religion-input{
+    border: none;
+    width: 100%;
+}
+.relationship-input,.contactnumber-input{
+    border: none;
+    width: 100%;
+}
+.fathersurname-td,.fatherfirstname-td,.fathermiddlename-td,.fathercontactnumber-td,.fatheroccupation-td{
+    width: 55%;
+}
+.mothersurname-td,.motherfirstname-td,.mothermiddlename-td,.mothercontactnumber-td,.motheroccupation-td{
+    width: 55%;
+}
+.fathersurname-input,.fatherfirstname-input,.fathermiddlename-input,.fathercontactnumber-input,.fatheroccupation-input{
+    border: none;
+    width: 100%;
+}
+.s{
+    width: 13%;
+}
+.mothersurname-input,.motherfirstname-input,.mothermiddlename-input,.mothercontactnumber-input,.motheroccupation-input{
+    border: none;
+    width: 100%;
+}
+.specify-input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.father-attain-input,.mother-attain-input{
+border: none;
+    width: 100%;
+}
+.parent-address-input{
+    border: none;
+    width: 100%;
+}
+.separated-input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 40%;
+}
+.type{
+        width: 20%;
+}
+.name-of-school-input,.masteral-degree-input,.doctoral-degree-input{
+width: 100%;
+}
+.honor-receive-input,.college-degree-input,.year-graduate-input
+,.masteral-degree-input,.doctoral-degree-input,.name-of-school-input{
+    border: none;
+}
+.college-degree-td{
+        width: 35%;
+}
+.college-degree-input{
+        width: 100%;
+}
+.tech-voc-input,.high-school-input,.asl-input,.elementary-input{
+    border: none;
+    width: 100%;
+}
+.sister-brother-age-td,.no-of-child-td,.sleep-td{
+    width:7%;
+}
+.sister-brother-age-input,.sister-brother-occupation-input,.sister-brother-educational-input{
+    width: 100%;
+    border: none;
+}
+.sister-brother-td{
+    width: 30%;
+}
+.sister-brother-input{
+    border: none;
+    width: 100%;
+}
+input{
+    font-size: 97%;
+}
+.person-living-home-td{
+    width: 5%;
+}
+.person-living-home-input,.no-of-child-input{
+    border: none;
+    width:100%;
+}
+.work-input{
+   
+    border: none;
+    border-bottom: 1px solid black;
+}
+.type-discipline-input{
+width: 100%;
+}
+.type-discipline-input,.handle-discipline-input{
+    border: none;
+}
+.sleep-input{
+    border: none;
+width: 100%;
+}
+.why-her-him-input{
+border: none;
+width: 100%;
+}
+.why-hate-input,.why-like-input,.subject-like-input,.subject-hate-input,.other-specify-input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.position-in-school-input,.honor-distinct-input,.your-enjoy-input,.hobbies-interest-input,.organization-belong-input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+li{
+    list-style: none;
+}
+.checkbox1,.checkbox2,.checkbox3,.checkbox4{
+display: inline-block;
+}
+.manner-input,.operation-input,.allergies-input{
+    
+    border: none;
+    border-bottom: 1px solid black;
+    width: 40%;
+}
+.yes-specify-input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 40%;
+}
+
+.certify{
+    text-align: justify;
+}
+.date,.student-signature-date-div{
+    float: right;
+    text-align: center;
+    margin-right: 70px;
+}
+.date-input{
+    width: 100%;
+    border: none;
+   border-bottom: 1px solid black;
+}
+.student-signature-print-name-input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.smcc{
+    text-align: center;
+    color: purple;
+    font-size: large;
+    margin-bottom: 0;
+    margin-top: 0;
+    border: none;
+
+}
+.smcc-tr{
+    border: none;
+
+}
+.logo{
+    width: 60px;
+     border: none;
+}
+.socotec{
+    width: 100px;
+border: none;
+}
+.smcc-header{
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    box-shadow: none;
+
+}
+.smcc-address-tel{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+
+}
+.footer{
+    width: 100%;
+    height: 40px;
+   
+}
+footer{
+    text-align: center;
+}
+.guidance-logo{
+    width: 15px;
+}
+main{
+    margin-left: 20px;
+}
+input{
+    background-color: whitesmoke;
+}
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+
+

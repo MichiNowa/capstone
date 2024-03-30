@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edit and Save</title>
+<style>
+    #container {
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 300px;
+        min-height: 100px;
+    }
+    .editable {
+        border: 1px dashed #aaa;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+</style>
+</head>
+<body>
+
+<div id="container" contenteditable="true">
+    <div class="editable">Editable item 1</div>
+    <div class="editable">Editable item 2</div>
+</div>
+
+<script>
+    const container = document.getElementById('container');
+    
+    // Function to save the content to localStorage
+    function saveContent() {
+        localStorage.setItem('savedContent', container.innerHTML);
+    }
+    
+    // Event listener to save content whenever there's a change
+    container.addEventListener('input', saveContent);
+    
+    // Check if there's previously saved content in localStorage and populate it
+    window.onload = function() {
+        const savedContent = localStorage.getItem('savedContent');
+        if (savedContent) {
+            container.innerHTML = savedContent;
+        }
+    };
+</script>
+
+</body>
+</html>
