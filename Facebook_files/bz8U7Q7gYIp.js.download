@@ -1,3 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("LSHandleAutoRestoreDecisionResult",["LSLogMebClientEvent.nop"],(function(a,b,c,d,e,f){function a(){var a=arguments,c=a[a.length-1],d=[],e=[];return c.sequence([function(a){return function(a){c.logger(a).mustfix(a)}("[EncryptedBackups][LSEncryptedBackupsHandleAutoRestoreDecisionResultStoredProcedure] LSEncryptedBackupsEncryptedBackupUserOptoutStatusTable table not found"),d[0]=c.createArray(),void 0!==void 0?d[1]=(d[0].push(void 0),d[0]):0,c.nativeOperation(b("LSLogMebClientEvent.nop"),"LSEncryptedBackupsHandleAutoRestoreDecisionResultStoredProcedure","LSEncryptedBackupsEncryptedBackupUserOptoutStatusTable table not found",d[0],c.i64.cast([0,3]))},function(a){return c.resolve(e)}])}e.exports=a}),null);

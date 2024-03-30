@@ -1,4 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("BirthdayCenterSuggestionClickFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f,g){"use strict";a=c("getFalcoLogPolicy_DO_NOT_USE")("6093");b=d("FalcoLoggerInternal").create("birthday_center_suggestion_click",a);e=b;g["default"]=e}),98);
-__d("BirthdayCenterSuggestionImpressionsFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f,g){"use strict";a=c("getFalcoLogPolicy_DO_NOT_USE")("6094");b=d("FalcoLoggerInternal").create("birthday_center_suggestion_impressions",a);e=b;g["default"]=e}),98);
