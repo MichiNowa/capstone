@@ -2,18 +2,8 @@
     text-align: center;
    
 }
-.sy{
-    padding: 4px;
-    padding-right: 10px;
-    float: right;
-    margin-right: 40px;
-   
-}
-.sy1{
-    float: right;
-    margin-right: 55px;
-    font-size: 12px;
-}
+
+
 main{
     margin-left: 20px;
 }
@@ -55,10 +45,10 @@ input{
     margin-right: 20px;
 }
 .father-cell{
-    margin-left: 15px;
+    margin-left: 23px;
 }
 .mother-cell{
-    margin-left: 12px;
+    margin-left: 19px;
 }
 
 .mutual-agreement{

@@ -161,6 +161,9 @@ img {
 .nav__items {
   display: grid;
 }
+.nav__edit{
+  margin-top: 1rem;
+}
 
 .nav__list {
   row-gap: 2.5rem;
@@ -199,7 +202,7 @@ img {
 }
 
 .nav__logout {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 /* Dropdown */

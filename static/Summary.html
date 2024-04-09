@@ -18,6 +18,17 @@
 
 <body>
     <!--========== HEADER ==========-->
+    <header class="header">
+        <div class="header__container">
+      <h2 style="text-align: center;">SUMMARY</h2>
+
+            <div class="header__toggle">
+                <i class='bx bx-menu' id="header-toggle"></i>
+            </div>
+        </div>
+    </header>
+
+    <!--========== NAV ==========-->
     <div class="nav" id="navbar">
         <nav class="nav__container">
             <div>
@@ -116,15 +127,32 @@
     </div>
 
     <!--========== CONTENTS ==========-->
+   
+ 
     <main>
-
-        <select name="viewing" id="assessment-profile" style="float: right; padding: 3px;">
-           a <option value="Student-summary">Summary</option>
+        <div class="WW">
+            <div class="sy"> 
+                <label for="" class="s-y">School Year</label><br>
+                <select name="schoolyr" id="schoolyr" required class="sy">
+                    <option value="sy-2023-2024" class="sy-2023-2024">2023-2024</option>
+                    <option value="sy-2024-2025" class="sy-2024-2025">2024-2025</option>
+                    <option value="sy-2025-2026" class="sy-2025-2026">2025-2026</option>
+                   </div>
+            
+                </select> 
+                <div class="sum"> 
+            <select name="viewing" id="assessment-profile" class="sum">
+            <option value="Student-summary">Summary</option>
             <option value="Assessment-form">Assessment Form</option>
             <option value="Student-Profile">Student Profile</option>
         </select>
+            </div>
+              
+          </div>
+       <br><br>
         <article>
             <section>
+            
                <table class="table1">
                 <tr>
                     <td class="img">

@@ -90,3 +90,25 @@ footer{
     margin-right: 7px;
     width: 25px;
 }
+.sy,.sum{
+    margin-left: 10px;
+    margin-right: 5px;
+    padding: 4px;
+    padding-right: 10px;
+ display: inline-block;
+ }
+ .s-y{
+    margin-left: 10px;
+
+ }
+
+ .sy{
+    padding: 4px;
+    padding-right: 10px;
+ display: inline-block;
+ }
+ .s-y{
+    font-size: 12px;
+    color: #58555E;
+ }
+
