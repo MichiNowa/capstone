@@ -10,11 +10,10 @@
   --first-color: #6923D0;
   --first-color-light: #F4F0FA;
   --title-color: #19181B;
-  
-  --text1-color: #58555E;
+  --text-color: #58555E;
   --text-color-light: #A5A1AA;
-  --body-color: whitesmoke;
-  --container-color: plum;
+  --body-color: #F9F6FD;
+  --container-color: #FFFFFF;
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -71,7 +70,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--body-color);
+  background-color: var(--container-color);
   box-shadow: 0 1px 0 rgba(22, 8, 43, 0.1);
   padding: 0 1rem;
   z-index: var(--z-fixed);
@@ -211,7 +210,7 @@ img {
 }
 
 .nav__dropdown-collapse {
-  background-color: var(--container-color);
+  background-color: var(--first-color-light);
   border-radius: .25rem;
   margin-top: 1rem;
 }

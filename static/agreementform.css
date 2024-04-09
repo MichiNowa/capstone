@@ -1,7 +1,18 @@
 .counseling{
     text-align: center;
-
    
+}
+.sy{
+    padding: 4px;
+    padding-right: 10px;
+    float: right;
+    margin-right: 40px;
+   
+}
+.sy1{
+    float: right;
+    margin-right: 55px;
+    font-size: 12px;
 }
 main{
     margin-left: 20px;
