@@ -13,16 +13,24 @@ h1{
 h2{
     text-align: center;
 }
-th{
-    background-color: purple;
-    color: yellow;
-}
 
-.color-td{
-    background-color: purple;
-    color: yellow;
+.no{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
+.no6,.no7{
+    padding-right:70px ;
+    border: none;
+    padding-left: 60px;
+}
+.no2,.no3,.no4,.no5{
+    border: none;
+}
+.no7{
+    padding-left:150px ;
+    border: none;
+}
 
 
 .sem{
@@ -39,8 +47,9 @@ th{
     border-bottom: 1px solid black;
 }
 .school-year{
-    width: 70px;
+    width: 100px;
 }
+
 .tab1{    margin-left: auto;
     margin-right: auto; 
     border: none;
@@ -53,7 +62,7 @@ select,option{
 }
 
 .course-program,.academic-year,.grade-year{
-    width:70px;
+    width:100px;
 }
 .basiceducation1{
     padding: 3px;
@@ -82,7 +91,6 @@ table,tr,td,th{
     border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
-    border-color: purple;
     
 }
 .gender-td,.civilstatus-td{
@@ -285,7 +293,7 @@ display: inline-block;
 
 }
 .logo{
-    width: 68px;
+    width: 60px;
      border: none;
 }
 .socotec{
@@ -315,10 +323,20 @@ border: none;
 footer{
     text-align: center;
 }
+.no{
+    border: none;
+    background-color: none
+    ;
+}
 .guidance-logo{
     width: 15px;
 }
-
+main{
+    margin-left: 20px;
+}
+input{
+    background-color: whitesmoke;
+}
 
 
 

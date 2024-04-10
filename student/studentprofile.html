@@ -10,7 +10,7 @@
 
     <!--========== CSS ==========-->
     <link rel="stylesheet" href="text.css/style.css">
-
+    <link rel="stylesheet" href="text.css/style.scss">
     <link rel="stylesheet" href="studentprofile.css">
 
     <title>Saint Micheal College of Caraga Guidance</title>
@@ -22,17 +22,11 @@
         <div class="header__container">
             <table class="smcc-header">
                 <tr class="smcc-tr">
-                    <td class="logo">
-                        <img src="logos.gif" alt="SMCC Logo">
-                    </td>
-                    <td class="smcc-address-tel"> <h1 class="smcc">Saint Micheal College of Caraga</h1>Brgy. 4, Nasipit, Agusandel Norte, Philippines<br>
-                        <a href="tel:+63085343-3251">Tel. Nos. +63 085343-3251</a>/ <a href="tel:+63085283-3113">+63 085283-3113</a><a href="tel:"> Fax No.+63 085808-0892</a><br>
-                        <a href="http://www.smccnasipit.edu.ph">www.smccnasipit.edu.ph</a>
+                   
+                    <td class="smcc-address-tel"> <h1 class="smcc" style="font-size: 30px;">STUDENT PROFILE INFORMATION SHEET</h1>
                      </td>
                 
-                        <td class="socotec">
-                            <img src="1.jpg" alt="SOCOTEC">
-                        </td>
+                         
                 </tr>
                </table>
             <div class="header__toggle">
@@ -46,7 +40,7 @@
         <nav class="nav__container">
             <div>
                 <a href="#" class="nav__link nav__logo">
-                    <img src="SMCC GC-logo.jpg" alt="Guidance Logo" class="guidance-logo">
+                    <img src="/smcc-img/SMCC GC-logo.jpg" alt="Guidance Logo" class="guidance-logo">
 
                     <span class="nav__logo-name">SMCC GUIDANCE</span>
                 </a>
@@ -55,30 +49,27 @@
                     <div class="nav__items">
                         <h3 class="nav__subtitle">Menu</h3>
 
-                        <a href="#" class="nav__link active">
-                            <i class='bx bx-home nav__icon'></i>
-                            <span class="nav__name">Home</span>
-                        </a>
-
                         <div class="nav__dropdown">
                             <a href="studentprofile.html" class="nav__link">
                                 <i class='bx bx-user nav__icon'></i>
                                 <span class="nav__name">Student's Profile</span>
-                                <i class=' nav__icon nav__dropdown-icon'></i>
                             </a>
 
-                
+                            
+                        </div>
                     </div>
                     <a href="Self-assessment.html" class="nav__link">
-                        <i class='bx bx-message-rounded nav__icon'></i>
+                        <i class='bx bxs-check-square nav__icon'></i>
                         <span class="nav__name">Assessment Form</span>
                     </a>
-                    <a href="Feedback.html" class="nav__link active">
-                        <i class='bx bx-home nav__icon'></i>
-                        <span class="nav__name">Feedback</span>
-                    </a>
-                 
-              
+                    <div class="nav__items">
+
+                        <div class="nav__dropdown">
+                            <a href="Feedback.html" class="nav__link">
+                                <i class='bx bxs-file nav__icon'></i>
+                                <span class="nav__name">Feedback</span>
+                            </a>
+                        </div>
                 </div>
 
                 <a href="pages-sign-in.html" class="nav__link nav__logout">
@@ -87,100 +78,91 @@
                 </a>
         </nav>
     </div>
+
     <!--========== CONTENTS ==========-->
-    <h1>STUDENT PROFILE INFORMATION SHEET</h1>
     <main>
         <article>
             <section>
-             <table class="tab1">
-                <tr class="tab1">
-                <td class="tab1">
-                <div class="image"> <img class="img" src="/id.jpg" alt="addphoto" style="width: 170px;"></div>
-                </td>
-                <td class="tab1">
                      <!--========== basic education ==========-->
-                    <div class="basiceducation">
-                        <div class="basiceducation1">
-                            <p>
-                                <i>
-                                    <u>
-                                        For Basic Education
-                                    </u>
-                                </i>
-                            </p>
-                        </div>
+                     <table class="no">
+                        <tr class="no2">
+                            <th class="no3">
 
-                        <div class="basiceducation1">
-                            <label for="gradeyearlevel">Grade/Year Level:</label>
-                            <select name="select-basic" id="select-grade" class="">
-                                <option value="">Grade/Year Level</option>
-                                <option value="first-year" class="first-year">1st Year</option>
-                                <option value="second-year" class="second-year">2nd Year</option>
-                                <option value="third-year" class="third-year">3rd Year</option>
-                                <option value="forth" class="forth">4th Year</option>
-                                <option value="grade11" class="grade11">Grade 11 </option>
-                                <option value="grade12" class="grade12">Grade 12</option>
-                            </select>
-                        </div>
-                        <div class="basiceducation1">
-                            <label for="schoolyear">School Year:</label>
-                            <select name="schoolyr" id="schoolyr" class="school-year">
-                                <option value="sy-2023-2024" class="sy-2023-2024">2023-2024</option>
-                                <option value="sy-2024-2025" class="sy-2024-2025">2024-2025</option>
-                                <option value="sy-2025-2026" class="sy-2025-2026">2025-2026</option>
-                                <option value="sy-2026-2027" class="sy-2026-2027">2026-2027</option>
-                                <option value="sy-2027-2028" class="sy-2027-2028">2027-2028</option>
-                                <option value="sy-2028-2029" class="sy-2028-2029">2028-2029</option>
-                                <option value="sy-2029-2030" class="sy-2029-2030">2029-2030</option>
-                                <option value="sy-2030-2031" class="sy-2030-2031">2030-2031</option>
-                                <option value="sy-2031-2032" class="sy-2031-2032">2031-2032</option>
-                                <option value="sy-2032-2033" class="sy-2032-2033">2032-2033</option>
-                                <option value="sy-2033-2034" class="sy-2033-2034">2033-2034</option>
-                                <option value="sy-2034-2035" class="sy-2034-2035">2034-2035</option>
-                                <option value="sy-2035-2036" class="sy-2035-2036">2035-2036</option>
-                                <option value="sy-2036-2037" class="sy-2036-2037">2036-2037</option>
-                                <option value="sy-2037-2038" class="sy-2037-2038">2037-2038</option>
-                                <option value="sy-2038-2039" class="sy-2038-2039">2038-2039</option>
-                                <option value="sy-2039-2040" class="sy-2039-2040">2039-2040</option>
-                                <option value="sy-2040-2041" class="sy-2040-2041">2040-2041</option>
-                                <option value="sy-2041-2042" class="sy-2041-2042">2041-2042</option>
-                                <option value="sy-2042-2043" class="sy-2042-2043">2042-2043</option>
-                                <option value="sy-2043-2044" class="sy-2043-2044">2043-2044</option>
-                                <option value="sy-2044-2045" class="sy-2044-2045">2044-2045</option>
-                                <option value="sy-2045-2046" class="sy-2045-2046">2045-2046</option>
-                                <option value="sy-2046-2047" class="sy-2046-2047">2046-2047</option>
-                                <option value="sy-2047-2048" class="sy-2047-2048">2047-2048</option>
-                                <option value="sy-2048-2049" class="sy-2048-2049">2048-2049</option>
-                                <option value="sy-2049-2050" class="sy-2049-2050">2049-2050</option>
-                                <option value="sy-2050-2051" class="sy-2050-2051">2050-2051</option>
-
-                            </select>
-                        </div>
-                    </div>
-                </td>
-                <td class="tab1">  <!--========== college ==========-->
-                    <div class="collegeeducation">
-                        <div class="collegeeducation1">
-                            <p>
-                                <i>
-                                    <u>
-                                        For College Department
-                                    </u>
-                                </i>
-                            </p>
-                        </div>
-                        <div class="check-first-second-summer">
+                            </th>
+                             <th class="no3">  
+                                <u><i>
+                                    For Basic Education
+                                </i></u>
+                                        
+                          </th>
+                            <th class="no4">    
+                                <u><i>
+                                    For College Department
+                                </i></u>
+                                        
+                           </th>  
+                        </tr>
+                        <tr class="no5">
+                            <td class="no3"><img src="plus (3).png" alt=""></td>
+                            <td class="no6">
+                                <label for="gradeyearlevel">Grade/Year Level:</label> <br>
+                                <select name="select-basic" id="select-grade" required>
+                                    <option value="">Grade/Year Level</option>
+                                    <option value="first-year" class="first-year">1st Year</option>
+                                    <option value="second-year" class="second-year">2nd Year</option>
+                                    <option value="third-year" class="third-year">3rd Year</option>
+                                    <option value="forth" class="forth">4th Year</option>
+                                    <option value="grade11" class="grade11">Grade 11 </option>
+                                    <option value="grade12" class="grade12">Grade 12</option>
+                                </select>
+                         <br>
+                                <label for="schoolyear">School Year:</label> <br>
+                                <select name="schoolyr" id="schoolyr" required class="school-year">
+                                    <option value="sy-2023-2024" class="sy-2023-2024">2023-2024</option>
+                                    <option value="sy-2024-2025" class="sy-2024-2025">2024-2025</option>
+                                    <option value="sy-2025-2026" class="sy-2025-2026">2025-2026</option>
+                                    <option value="sy-2026-2027" class="sy-2026-2027">2026-2027</option>
+                                    <option value="sy-2027-2028" class="sy-2027-2028">2027-2028</option>
+                                    <option value="sy-2028-2029" class="sy-2028-2029">2028-2029</option>
+                                    <option value="sy-2029-2030" class="sy-2029-2030">2029-2030</option>
+                                    <option value="sy-2030-2031" class="sy-2030-2031">2030-2031</option>
+                                    <option value="sy-2031-2032" class="sy-2031-2032">2031-2032</option>
+                                    <option value="sy-2032-2033" class="sy-2032-2033">2032-2033</option>
+                                    <option value="sy-2033-2034" class="sy-2033-2034">2033-2034</option>
+                                    <option value="sy-2034-2035" class="sy-2034-2035">2034-2035</option>
+                                    <option value="sy-2035-2036" class="sy-2035-2036">2035-2036</option>
+                                    <option value="sy-2036-2037" class="sy-2036-2037">2036-2037</option>
+                                    <option value="sy-2037-2038" class="sy-2037-2038">2037-2038</option>
+                                    <option value="sy-2038-2039" class="sy-2038-2039">2038-2039</option>
+                                    <option value="sy-2039-2040" class="sy-2039-2040">2039-2040</option>
+                                    <option value="sy-2040-2041" class="sy-2040-2041">2040-2041</option>
+                                    <option value="sy-2041-2042" class="sy-2041-2042">2041-2042</option>
+                                    <option value="sy-2042-2043" class="sy-2042-2043">2042-2043</option>
+                                    <option value="sy-2043-2044" class="sy-2043-2044">2043-2044</option>
+                                    <option value="sy-2044-2045" class="sy-2044-2045">2044-2045</option>
+                                    <option value="sy-2045-2046" class="sy-2045-2046">2045-2046</option>
+                                    <option value="sy-2046-2047" class="sy-2046-2047">2046-2047</option>
+                                    <option value="sy-2047-2048" class="sy-2047-2048">2047-2048</option>
+                                    <option value="sy-2048-2049" class="sy-2048-2049">2048-2049</option>
+                                    <option value="sy-2049-2050" class="sy-2049-2050">2049-2050</option>
+                                    <option value="sy-2050-2051" class="sy-2050-2051">2050-2051</option>
+    
+                                </select>
+                            </td>
+                            <td class="no7">
+                                      
+                 
+         
                             <label for="semester">Semester:</label>
-                            <input type="checkbox" name="first" id="first" class="first">
+                            <input type="checkbox" name="first" id="first" class="first" required>
                             <label for="firstsem">1st</label>
-                            <input type="checkbox" name="second" id="second" class="second">
+                            <input type="checkbox" name="second" id="second" class="second"required>
                             <label for="secondsem">2nd</label>
-                            <input type="checkbox" name="summer" id="summer" class="summer">
+                            <input type="checkbox" name="summer" id="summer" class="summer"required>
                             <label for="summer">summer</label>
-                        </div>
-                        <div class="acedemicyear">
+                     <br>
                             <label for="academicyear">Academic Year:</label>
-                            <select name="academicyr" id="academicyr" class="academic-year">
+                            <select name="academicyr" id="academicyr" class="academic-year"required>
                                 <option value="ay-2023-2024" class="ay-2023-2024">2023-2024</option>
                                 <option value="ay-2024-2025" class="ay-2024-2025">2024-2025</option>
                                 <option value="ay-2025-2026" class="ay-2025-2026">2025-2026</option>
@@ -210,10 +192,9 @@
                                 <option value="ay-2049-2050" class="ay-2049-2050">2049-2050</option>
                                 <option value="ay-2050-2051" class="ay-2050-2051">2050-2051</option>
                             </select>
-                        </div>
-                        <div class="courseprogram">
+                      <br>
                             <label for="courseprogram">Course/Program:</label>
-                            <select class="select-box" id="select-course">
+                            <select class="select-box" id="select-course"required>
                                 <option value="">Select Course/Programs</option>
                                 <option value="bsed-education" class="bsed-education">BSED - Education</option>
                                 <option value="BSED-science" class="bsed-science">BSED - Science</option>
@@ -232,9 +213,9 @@
                                 <option value="bs-crim" class="bs-crim">BS - Criminology</option>
                                 <option value="bpa" class="bpa">BPA</option>
                             </select>
-                            <div class="collegeof">
+                         <br>
                                 <label for="collegeof">College of:</label>
-                                <select class="select-college" id="selectcollege">
+                                <select class="select-college" id="selectcollege"required>
                                     <option value="">Department</option>
                                     <option value="cas" class="cas">College of Arts and Sciences</option>
                                     <option value="cte" class="cte">College of Arts and Sciences</option>
@@ -243,33 +224,27 @@
                                     <option value="cthm" class="cthm">College of Tourism and Hotel Management</option>
                                     <option value="ccje" class="ccje">College of Criminal Justice Education</option>
                                 </select>
-                            </div>
-                        </div>
-                    </div></td>
-             </tr>
-            </table>
-                    
-
-                   
-                  
+                            </td>
+                        </tr>
+                     </table>
                     <br>
                     <br>
                     <div class="surname-inline">
                         <div class="sur-name">
-                            <input type="text" name="surname" id="surname" class="surname"><br>
-                            <label for="surname"><i><b>SURNAME</b></i></label>
+                            <input type="text" name="surname" id="surname" required class="surname" ><br>
+                            <label for="surname"><i>SURNAME</i></label>
                         </div>
                         <div class="sur-name">
-                            <input type="text" name="givenname" id="givenname" class="givenname"><br>
-                            <label for="givenname"><i><b>GIVEN NAME</b></i></label>
+                            <input type="text" name="givenname" id="givenname" required class="givenname" ><br>
+                            <label for="givenname"><i>GIVEN NAME</i></label>
                         </div>
                         <div class="sur-name">
-                            <input type="text" name="middlename" id="middlename" class="middlename"><br>
-                            <label for="middlename"><i><b>MIDDLE NAME</b></i></label>
+                            <input type="text" name="middlename" id="middlename" required class="middlename" ><br>
+                            <label for="middlename"><i>MIDDLE NAME</i></label>
                         </div>
                         <div class="sur-name">
-                            <input type="text" name="auxialiary" id="auxialiary" class="auxiliary"><br>
-                            <label for="auxiliary"><i><b>AUXILIARY NAME</b></i></label>
+                            <input type="text" name="auxialiary" id="auxialiary" required class="auxiliary"><br>
+                            <label for="auxiliary"><i>AUXILIARY NAME</i></label>
                             <label>(Sr,Jr,I,II,III, etc)</label>
                         </div>
 
@@ -282,59 +257,62 @@
         <article>
             <section>
                 <table>
+                    <tbody>
                     <tr>
-                        <td>
+                        <td class="color-td">
                             <b>Gender</b>
                         </td>
                         <td class="gender-td">
-                            <input type="text" name="gender" id="gender" class="gender-input">
+                            <input type="text" name="gender" id="gender" class="gender-input"required>
                         </td>
-                        <td>
-                            <b>Age</b>
+                        <td class="color-td">
+                            Age
                         </td>
                         <td class="age-td">
-                            <input type="text" name="age" id="age" class="age-input">
+                            <input type="text" name="age" id="age" class="age-input"required>
                         </td>
                         <td>
-                            <b>Blood Type</b>
+                            Blood Type
                         </td>
                         <td class="bloodtype-td">
-                            <input type="text" name="bloodtype" id="bloodtype" class="bloodtype-input">
+                            <input type="text" name="bloodtype" id="bloodtype" class="bloodtype-input"required>
                         </td>
                         <td>
-                            <b>Height (cm.)</b> 
+                            Height (cm.)
                         </td>
                         <td class="height-td">
-                            <input type="text" name="height" id="height" class="height-input">
+                            <input type="text" name="height" id="height" class="height-input"required>
                         </td>
                         <td>
-                            <b>Weight (kg.)</b> 
+                            Weight (kg.)
                         </td>
                         <td class="weight-td">
-                            <input type="text" name="weights" id="weights" class="weight-input">
+                            <input type="text" name="weights" id="weights" class="weight-input"required>
                         </td>
                         <td>
-                            <b>Civil Status</b> 
+                            Civil Status
                         </td>
                         <td class="civilstatus-td">
-                            <input type="text" name="civilstatus" id="civilstatus" class="civilstatus-input">
+                            <input type="text" name="civilstatus" id="civilstatus" class="civilstatus-input"required>
                         </td>
                     </tr>
+                </tbody>
                 </table>
                 <br>
                 <table>
+                <tbody>
                     <tr>
                         <td>
                             Home Address
                         </td>
                         <td class="homeaddress-td">
-                            <input type="text" name="homeaddress" id="homeaddress" class="homeaddress-input">
+                            <input type="text" name="homeaddress" id="homeaddress" class="homeaddress-input"required>
                         </td>
                         <td>
                             Citizenship
                         </td>
                         <td class="citizenship-td">
-                            <input type="text" name="citizenship" id="citizenship" class="citizenship-input">
+                            <input type="text" name="citizenship" id="citizenship" class="citizenship-input"required>
                         </td>
                     </tr>
                     <tr>
@@ -342,26 +320,28 @@
                             Date of Birth
                         </td>
                         <td class="dateofbirth-td">
-                            <input type="text" name="dateofbirth" id="dateofbirth" class="dateofbirth-input">
+                            <input type="text" name="dateofbirth" id="dateofbirth" class="dateofbirth-input"required>
                         </td>
                         <td>
                             Contact No.
                         </td>
                         <td class="contactno-td">
-                            <input type="tel" name="contactno" id="contactno" class="contactno-input">
+                            <input type="tel" name="contactno" id="contactno" class="contactno-input"required>
                         </td>
                     <tr>
                         <td>
                             Religion
                         </td>
                         <td class="religion-td" colspan="3">
-                            <input type="tel" name="religion" id="religion" class="religion-input">
+                            <input type="tel" name="religion" id="religion" class="religion-input"required>
                         </td>
                     </tr>
                     </tr>
+                </tbody>
                 </table>
                 <br>
                 <table>
+                    <thead>
                     <tr>
                         <th rowspan="2">
                             <i>
@@ -371,19 +351,20 @@
                             <i><b>Relationship</b></i>
                         </td>
                         <td class="relationship-td">
-                            <input type="text" name="relationship" id="relationship" class="relationship-input">
+                            <input type="text" name="relationship" id="relationship" class="relationship-input"required>
                         </td>
                     <tr>
                         <td>
                           <i><b>Contact No.</b></i>  
                         </td>
                         <td class="contactnumber-td">
-                            <input type="text" name="contactnumber" id="contactnumber" class="contactnumber-input">
+                            <input type="text" name="contactnumber" id="contactnumber" class="contactnumber-input"required>
                         </td>
                     </tr>
 
                     </th>
                     </tr>
+                </thead>
                 </table>
             </section>
         </article>
@@ -394,95 +375,102 @@
             <section>
                 <h2>PARENTAL BACKGROUND</h2>
                 <table>
+                    <thead>
+                    <tr>
                     <tr>
                         <th colspan="2">
                             Father's Information
                         </th>
                         <th colspan="2"> Mother's Information</th>
-
+                       </tr>
+                    </thead>
+                <tbody>
                     <tr>
                         <td>
-                            <b>Surname</b> 
+                            Surname
                         </td>
                         <td class="fathersurname-td">
-                            <input type="text" name="fathersurname" id="fathersurname" class="fathersurname-input">
+                            <input type="text" name="fathersurname" id="fathersurname" class="fathersurname-input"required>
                         </td>
                         <td>
-                            <b>Surname</b> 
+                            Surname
                         </td>
                         <td class="mothersurname-td">
-                            <input type="text" name="mothersurname" id="mothersurname" class="mothersurname-input">
+                            <input type="text" name="mothersurname" id="mothersurname" class="mothersurname-input"required>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <b>First Name</b> 
+                            First Name
                         </td>
                         <td class="fatherfirstname-td">
                             <input type="text" name="fatherfirstname" id="fatherfirstname"
-                                class="fatherfirstname-input">
+                                class="fatherfirstname-input"required>
                         </td>
                         <td>
-                            <b>First Name</b>
+                            First Name
                         </td>
                         <td class="motherfirstname-td">
                             <input type="text" name="motherfirstname" id="motherfirstname"
-                                class="motherfirstname-input">
+                                class="motherfirstname-input"required>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <b>Middle Name</b> 
+                            Middle Name
                         </td>
                         <td class="fathermiddlename-td">
                             <input type="text" name="fathermiddlename" id="fathermiddlename"
-                                class="fathermiddlename-input">
+                                class="fathermiddlename-input"required>
                         </td>
                         <td>
-                            <b>Middle Name</b> 
+                            Middle Name
                         </td>
                         <td class="motherrmiddlename-td">
                             <input type="text" name="mothermiddlename" id="mothrrmiddlename"
-                                class="mothermiddlename-input">
+                                class="mothermiddlename-input"required>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <b>Contact No.</b>
+                            Contact No.
                         </td>
                         <td class="fathercontactnumber-td">
                             <input type="text" name="fathercontactnumber" id="fathercontactnumber"
-                                class="fathercontactnumber-input">
+                                class="fathercontactnumber-input"required>
                         </td>
                         <td>
-                            <b>Contact No.</b> 
+                            Contact No.
                         </td>
                         <td class="mothercontactnumber-td">
                             <input type="text" name="mothercontactnumber" id="mothercontactnumber"
-                                class="mothercontactnumber-input">
+                                class="mothercontactnumber-input"required>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <b>Occupation</b> 
+                            Occupation
                         </td>
                         <td class="fatheroccupation-td">
                             <input type="text" name="fatheroccupation" id="fatheroccupation"
-                                class="fatheroccupation-input">
+                                class="fatheroccupation-input"required>
                         </td>
                         <td>
-                            <b>Occupation</b> 
+                            Occupation
                         </td>
                         <td class="motheroccupationme-td">
                             <input type="text" name="motheroccupatione" id="motheroccupatione"
-                                class="motheroccupation-input">
+                                class="motheroccupation-input"required>
                         </td>
                     </tr>
                     </tr>
+                </tbody>
+                
                 </table>
                 <br>
 
                 <table>
+                    <thead>
                     <tr>
                         <th colspan="2">
                             Father's Information
@@ -491,6 +479,8 @@
                             Mother's Information
                         </th>
                     </tr>
+                </thead>
+            <tbody>
                     <tr>
                         <td class="type">
                             Type of Employee <br>
@@ -559,13 +549,13 @@
                             <i>Highest Education Attainment</i>
                         </td>
                         <td>
-                            <input type="text" name="father-attain" id="father-attain" class="father-attain-input">
+                            <input type="text" name="father-attain" id="father-attain" class="father-attain-input"required>
                         </td>
                         <td>
                             <i>Highest Education Attainment</i>
                         </td>
                         <td>
-                            <input type="text" name="mother-attain" id="mother-attain" class="mother-attain-input">
+                            <input type="text" name="mother-attain" id="mother-attain" class="mother-attain-input"required>
                         </td>
 
                     </tr>
@@ -574,7 +564,7 @@
                             <i> Parent's Present Address</i>
                         </td>
                         <td class="parent-address-td" colspan="3">
-                            <input type="text" name="parentaddress" id="parentaddress" class="parent-address-input">
+                            <input type="text" name="parentaddress" id="parentaddress" class="parent-address-input"required>
                         </td>
                     <tr>
                         <td>
@@ -582,33 +572,33 @@
                         </td>
                         <td class="parentsmaritalstatus-td" colspan="3">
                             <input type="checkbox" name="married-in-church" id="married-in-church"
-                                class="married-in-church-input">
+                                class="married-in-church-input"required>
                             <label for="married">Married in Church</label>
                             <input type="checkbox" name="mother-remarried" id="mother-remarried"
-                                class="mother-remarried-input">
+                                class="mother-remarried-input"required>
                             <label for="motherremarried">Mother Remarried</label>
                             <input type="checkbox" name="father-remarried" id="father-remarried"
-                                class="father-remarried-input">
+                                class="father-remarried-input"required>
                             <label for="fatherremarried">Father Remarried</label>
                             <br>
-                            <input type="checkbox" name="singleparent" id="singleparent" class="singleparent-input">
+                            <input type="checkbox" name="singleparent" id="singleparent" class="singleparent-input"required>
                             <label for="singleparent">Single Parents</label>
                             <input type="checkbox" name="married-civilly" id="married-civilly"
-                                class="married-civilly-input">
+                                class="married-civilly-input"required>
                             <label for="marriedcivilly">Married Civilly</label>
                             <input type="checkbox" name="livingtogether" id="living-together"
-                                class="livingtogether-input">
+                                class="livingtogether-input"required>
                             <label for="fatherremarried">Father Remarried</label>
                             <br>
                             <label>If Separated, with whom do you stay</label>
-                            <input type="text" name="separated" id="separated" class="separated-input">
+                            <input type="text" name="separated" id="separated" class="separated-input"required>
                         </td>
-                    </tr>
+                    </tr>z
 
                     </tr>
 
                     </tr>
-
+                </tbody>
                 </table>
             </section>
         </article>
@@ -620,6 +610,8 @@
                     EDUCATIONAL ATTAINMENT
                 </h2>
                 <table class="educational-center">
+                    <thead>
+                 
                     <tr>
                         <th colspan="2">
                             Name Of School
@@ -629,16 +621,20 @@
                         </th>
                         <th>
                             Honor/s Received
-                        </th>
+                        </th>  
+                        </tr>  
+                    </thead>
+                <tbody>
+
                     <tr>
                         <td class="namer-of-school-td" colspan="2">
-                            <input type="text" name="nameofschool" id="name-of-school" class="name-of-school-input">
+                            <input type="text" name="nameofschool" id="name-of-school" class="name-of-school-input"required>
                         </td>
                         <td class="yeargraduate-td">
-                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input">
+                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input"required>
                         </td>
                         <td class="honor-receive-td">
-                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input">
+                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input"required>
                         </td>
                     </tr>
                     <tr>
@@ -648,24 +644,24 @@
                         </td>
                         <td class="doctoral-degree-td">
                             <input type="text" name="doctoral-degree" id="doctoral-degree"
-                                class="doctoral-degree-input">
+                                class="doctoral-degree-input"required>
                         </td>
                         <td class="yeargraduate-td">
-                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input">
+                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input"required>
                         </td>
                         <td class="honor-receive-td">
-                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input">
+                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input"required>
                         </td>
                     </tr>
                     <tr>
                         <td class="name-of-school-td" colspan="2">
-                            <input type="text" name="name-of-school" id="name-of-school" class="name-of-school-input">
+                            <input type="text" name="name-of-school" id="name-of-school" class="name-of-school-input"required>
                         </td>
                         <td class="yeargraduate-td">
-                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input">
+                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input"required>
                         </td>
                         <td class="honor-receive-td">
-                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input">
+                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input"required>
                         </td>
                     </tr>
                     <tr>
@@ -675,24 +671,24 @@
                         </td>
                         <td class="masteral-degree-td">
                             <input type="text" name="masteral-degree" id="masteral-degree"
-                                class="masteral-degree-input">
+                                class="masteral-degree-input"required>
                         </td>
                         <td class="yeargraduate-td">
-                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input">
+                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input"required>
                         </td>
                         <td class="honor-receive-td">
-                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input">
+                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input"required>
                         </td>
                     </tr>
                     <tr>
                         <td class="namer-of-school-td" colspan="2">
-                            <input type="text" name="name-of-school" id="name-of-school" class="name-of-school-input">
+                            <input type="text" name="name-of-school" id="name-of-school" class="name-of-school-input"required>
                         </td>
                         <td class="yeargraduate-td">
-                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input">
+                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input"required>
                         </td>
                         <td class="honor-receive-td">
-                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input">
+                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input"required>
                         </td>
                     </tr>
                     <tr>
@@ -701,13 +697,13 @@
                             <b><i>College:</i></b>
                         </td>
                         <td class="college-degree-td">
-                            <input type="text" name="college-degree" id="college-degree" class="college-degree-input">
+                            <input type="text" name="college-degree" id="college-degree" class="college-degree-input"required>
                         </td>
                         <td class="yeargraduate-td">
-                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input">
+                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input"required>
                         </td>
                         <td class="honor-receive-td">
-                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input">
+                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input"required>
                         </td>
                     </tr>
                     <tr>
@@ -715,13 +711,13 @@
                             Tech-Voc
                         </td>
                         <td class="tech-voc-td">
-                            <input type="text" name="tech-voc" id="tech-voc" class="tech-voc-input">
+                            <input type="text" name="tech-voc" id="tech-voc" class="tech-voc-input"required>
                         </td>
                         <td class="yeargraduate-td">
-                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input">
+                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input"required>
                         </td>
                         <td class="honor-receive-td">
-                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input">
+                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input"required>
                         </td>
                     </tr>
                     <tr>
@@ -729,13 +725,13 @@
                             High School
                         </td>
                         <td class="high-school-td">
-                            <input type="text" name="high-school" id="high-school" class="high-school-input">
+                            <input type="text" name="high-school" id="high-school" class="high-school-input"required>
                         </td>
                         <td class="yeargraduate-td">
-                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input">
+                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input"required>
                         </td>
                         <td class="honor-receive-td">
-                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input">
+                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input"required>
                         </td>
                     </tr>
                     <tr>
@@ -743,13 +739,13 @@
                             ASL
                         </td>
                         <td class="asl-td">
-                            <input type="text" name="asl" id="asl" class="asl-input">
+                            <input type="text" name="asl" id="asl" class="asl-input"required>
                         </td>
                         <td class="yeargraduate-td">
-                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input">
+                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input"required>
                         </td>
                         <td class="honor-receive-td">
-                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input">
+                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input"required>
                         </td>
                     </tr>
                     <tr>
@@ -757,24 +753,28 @@
                             Elementary
                         </td>
                         <td class="elementary-td">
-                            <input type="text" name="elementary" id="elementary" class="elementary-input">
+                            <input type="text" name="elementary" id="elementary" class="elementary-input"required>
                         </td>
                         <td class="yeargraduate-td">
-                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input">
+                            <input type="text" name="year-graduate" id="year-graduate" class="year-graduate-input"required>
                         </td>
                         <td class="honor-receive-td">
-                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input">
+                            <input type="text" name="honor-receive" id="honor-receive" class="honor-receive-input"required>
                         </td>
                     </tr>
-                    </tr>
+                </tbody>
+                    
                 </table>
                 <br>
                 <table>
+                    <thead>
                     <tr>
                         <th>
                             Who is supporting your studies in SMCC?
                         </th>
                     </tr>
+                </thead>
+                <tbody>
                     <tr>
                         <td>
                             <input type="checkbox" name="mother" id="mother">
@@ -806,6 +806,8 @@
                         </td>
 
                     </tr>
+                </tbody>
+
                 </table>
             </section>
         </article>
@@ -816,6 +818,7 @@
             <section>
                 <h2>Family and Social Environment</h2>
                 <table>
+                    <thead>
                     <tr>
                         <th>
                            <b>Name of Sister/Brother</b>
@@ -843,6 +846,9 @@
                             </b>
                         </th>
                     </tr>
+                </thead>
+            <tbody>
+
                     <tr>
                         <td class="sister-brother-td">
                             1. <input type="text" name="sister-brother" id="sister-brother"
@@ -1083,7 +1089,7 @@
                         </td>
                         <td class="person-living-home-td">
                             <input type="text" name="person-living-home-td" id="person-living-home-td"
-                                class="person-living-home-input">
+                                class="person-living-home-input"required>
                         </td>
                         <td colspan="2">
                             <b><i>Is your homelife:</i></b>
@@ -1102,7 +1108,7 @@
                             No. of Children in the family
                         </td>
                         <td class="no-of-child-td">
-                            <input type="text" name="no-of-child" id="no-of-child" class="no-of-child-input">
+                            <input type="text" name="no-of-child" id="no-of-child" class="no-of-child-input"required>
                         </td>
                         <td>
                             <b>
@@ -1132,12 +1138,12 @@
                         </td>
                         <td class="type-discipline-td">
                             <input type="text" name="type-discipline" id="type-discipline"
-                                class="type-discipline-input">
+                                class="type-discipline-input"required>
                         </td>
                         <td class="handles-td">
                             Who handles discipline at home?
                             <input type="text" name="handle-discipline" id="handle-discipline"
-                                class="handle-discipline-input">
+                                class="handle-discipline-input"required>
 
                         </td>
                     </tr>
@@ -1146,17 +1152,18 @@
                             What time do you sleep
                         </td>
                         <td class="sleep-td">
-                            <input type="text" name="sleep" id="sleep" class="sleep-input">
+                            <input type="text" name="sleep" id="sleep" class="sleep-input"required>
                         </td>
                         <td>
                             Do you have friend?<input type="checkbox" name="yes" id="yes-friend"> if yes, why do you
                             choose him/her
                         </td>
                         <td class="choose">
-                            <input type="text" name="why-her-him" id="why-her-him" class="why-her-him-input">
+                            <input type="text" name="why-her-him" id="why-her-him" class="why-her-him-input"required>
                         </td>
                     </tr>
 
+                </tbody>
 
                 </table>
             </section>
@@ -1167,28 +1174,28 @@
                 <div class="subjuct-like-div">
                     <p>
                         Subject/s you like the most: <input type="text" name="subject-like" id="subject-like"
-                            class="subject-like-input">
-                        why? <input type="text" name="why" id="why-like" class="why-like-input">
+                            class="subject-like-input"required>
+                        why? <input type="text" name="why" id="why-like" class="why-like-input"required>
                     </p>
                 </div>
                 <div class="subject-hate-div">
                     <p>
                         Subject/s you hate the most: <input type="text" name="subject-hate" id="subject-hate"
-                            class="subject-hate-input">
-                        why <input type="text" name="why-hate" id="why-hate" class="why-hate-input">
+                            class="subject-hate-input"required>
+                        why <input type="text" name="why-hate" id="why-hate" class="why-hate-input"required>
                     </p>
                 </div>
                 <div class="leader-position-div">
                     <p>
                         What leadership position/s do you have in and out of school?<br>
                         <input type="text" name="position-in-school" id="position-in-school"
-                            class="position-in-school-input">
+                            class="position-in-school-input"required>
                     </p>
                 </div>
                 <div class="honor-distinct-div">
                     <p>
                         What honor/s distinctions did you receive in and out of school?<br>
-                        <input type="text" name="honor-distinct" id="honor-distinct" class="honor-distinct-input">
+                        <input type="text" name="honor-distinct" id="honor-distinct" class="honor-distinct-input"required>
                     </p>
                 </div>
             </section>
@@ -1198,9 +1205,9 @@
   <div class="interest">
           <h3>INTERESTS:</h3>
       <ul>
-        <li>List down your present hobbies/interest: <input type="text" name="hobbies-interest" id="hobbies-interest" class="hobbies-interest-input"></li>
-        <li>What do you enjoy more than anything else? <input type="text" name="your-enjoy" id="your-enjoy" class="your-enjoy-input"></li>
-        <li>What organization/s do you belong in and out of school? <input type="text" name="organization-belong" id="organization-belong" class="organization-belong-input"></li>
+        <li>List down your present hobbies/interest: <input type="text" name="hobbies-interest" id="hobbies-interest" class="hobbies-interest-input"required></li>
+        <li>What do you enjoy more than anything else? <input type="text" name="your-enjoy" id="your-enjoy" class="your-enjoy-input"required></li>
+        <li>What organization/s do you belong in and out of school? <input type="text" name="organization-belong" id="organization-belong" class="organization-belong-input"required></li>
       </ul>
   </div>
   <br>
@@ -1298,20 +1305,20 @@
                  <li>
                     <input type="checkbox" name="other-specify" id="other-specify">
                     <label>Others, Pls specify</label> 
-                    <input type="text" name="specify" id="other-specify" class="other-specify-input">
+                    <input type="text" name="specify" id="other-specify" class="other-specify-input"required>
                  </li>
             </ul>
          </div>
          <br>
          <br>
          <div class="mannerism">
-            Do you Exhibit certain mannerism?(Please specify): <input type="text" name="manner" id="manner" class="manner-input">
+            Do you Exhibit certain mannerism?(Please specify): <input type="text" name="manner" id="manner" class="manner-input"required>
          </div>
          <div class="any-operation">
-            Do you have any operation>(Please specify): <input type="text" name="operation" id="operation" class="operation-input">
+            Do you have any operation>(Please specify): <input type="text" name="operation" id="operation" class="operation-input"required>
          </div>
          <div class="allergies">
-            Do you have allergies?(Please specify): <input type="text" name="allergies" id="allergies" class="allergies-input">
+            Do you have allergies?(Please specify): <input type="text" name="allergies" id="allergies" class="allergies-input"required>
          </div>
         </section>
     </article>
@@ -1325,25 +1332,25 @@
             </h3>
             <ul>
                 <li class="lower-alpha">
-                   Are you a member of any indigenous group? <input type="checkbox" name="indigenous-yes" id="indigenous-yes">
+                   Are you a member of any indigenous group? <input type="checkbox" name="indigenous-yes" id="indigenous-yes"required>
                    <label for="yes">Yes</label>
                   <input type="checkbox" name="indigenous-no" id="indigenous-no">
                    <label for="no">No</label> <br>
-                   If <b>"YES"</b>, Please specify: <input type="text" name="yes-specify" id="yes-specify-indigenous" class="yes-specify-input">
+                   If <b>"YES"</b>, Please specify: <input type="text" name="yes-specify" id="yes-specify-indigenous" class="yes-specify-input"required>
                 </li>
                 <li>
                     Are you differently abled? <input type="checkbox" name="disabled-yes" id="disabled-yes">
                     <label for="yes">Yes</label>
                    <input type="checkbox" name="disabled-no" id="disabled-no">
                     <label for="no">No</label> <br>
-                    If <b>"YES"</b>, Please specify: <input type="text" name="yes-specify" id="yes-specify-disabled" class="yes-specify-input">
+                    If <b>"YES"</b>, Please specify: <input type="text" name="yes-specify" id="yes-specify-disabled" class="yes-specify-input"required>
                 </li>
                 <li>
                    Are you a solo Parent? <input type="checkbox" name="solo-parent-yes" id="solo-parent-yes">
                     <label for="yes">Yes</label>
                    <input type="checkbox" name="solo-parent-no" id="solo-parent-no">
                     <label for="no">No</label> <br>
-                    If <b>"YES"</b>, Please specify: <input type="text" name="yes-specify" id="yes-specify-solo-parent" class="yes-specify-input">
+                    If <b>"YES"</b>, Please specify: <input type="text" name="yes-specify" id="yes-specify-solo-parent" class="yes-specify-input"required>
                 </li>
             </ul>
         </section>
@@ -1365,34 +1372,20 @@
             <br>
             <div class="student-signature-date-div">
                 <div class="student-signature-print-name">
-                     <input type="text" name="student-signature-print-name" id="student-signature-print-name" class="student-signature-print-name-input">
+                     <input type="text" name="student-signature-print-name" id="student-signature-print-name" class="student-signature-print-name-input"required>
                 <label for="student-signature-print-name"><br>
                     student's Signature over Printed Name
                 </label>
                 </div>
                <div class="date" style="margin-bottom:40px ;">
-                <input type="text" name="date" id="date-student-profile" class="date-input"><br>
+                <input type="text" name="date" id="date-student-profile" class="date-input"required><br>
                 <label for="date"> Date</label>
                </div>
             </div>
         </section>
      </article>
     </main>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <footer>
-                       <img src="formlabel.png" alt="" style="width: 200px; float: left;"  class="form-label">
-                       <br>
-                       <br>
-                       <br>
-                       <img src="form-footer.png" alt="footer" class="footer">
-                    </footer>
+  
     <!--========== MAIN JS ==========-->
     <script src="main.js"></script>
 </body>
