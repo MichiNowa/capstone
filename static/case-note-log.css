@@ -14,44 +14,8 @@ td{
 th,td{
     padding: 8px;
 }
-.smcc{
-    text-align: center;
-    color: purple;
-    font-size: x-large;
-    margin-bottom: 0;
-    margin-top: 0;
-    border: none;
-}
 
-.logo{
-    width: 60px;
-    border: none;
-}
-.socotec{
-    width: 100px;
-    border: none;
-}
-.smcc-header{
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
-    box-shadow: none;
-}
-.smcc-address-tel{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 25px;
-    padding-right: 25px;
-    border: none;
-}
-.footer{
-    width: 100%;
-    height: 40px;
-   
-}
-footer{
-    text-align: center;
-}
+
 .guidance-logo{
     margin-right: 7px;
     width: 25px;
@@ -90,4 +54,11 @@ table{
  .add{
     font-size: 12px;
     color: #58555E;
+ }
+ .aw{
+    margin-top: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.8);
+    padding: 4px;
+    border-radius: 8%;
+    border: 1px solid black;
  }
