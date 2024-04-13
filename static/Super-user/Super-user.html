@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="super-user.css">
+
+
+    <title>Saint Micheal College of Caraga Guidance</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="header">
+        <div class="header__container">
+            <h2 style="text-align: center;">
+                ALLOWED ADMINS
+                 </h2>
+        </div>
+    </header>
+
+    <!--========== NAV ==========-->
+    <div class="nav" id="navbar">
+        <nav class="nav__container">
+            <div>
+                <a href="#" class="nav__link nav__logo">
+                    <img src="/smcc-img/SMCC GC-logo.jpg" alt="Guidance Logo" class="guidance-logo">
+                    <span class="nav__logo-name">SMCC GUIDANCE</span>
+                </a>
+                    
+                    </div>
+                    <a href="Case-note-log.html" class="nav__link">
+                        <i class='bx bxs-user-account nav__icon'></i>
+                        <span class="nav__name">View Admin <br> Accounts</span>
+                    </a>
+                 
+
+                    <a href="pages-sign-in.html" class="nav__link nav__logout">
+                        <i class='bx bx-log-out nav__icon'></i>
+                        <span class="nav__name">Log Out</span>
+                    </a>
+        </nav>
+    </div>
+
+    <!--========== CONTENTS ==========-->
+    <div class="right">
+        <div class="sy"> 
+            <label for="" class="s-y">School Year</label><br>
+            <select name="schoolyr" id="schoolyr" required class="sy">
+                <option value="sy-2023-2024" class="sy-2023-2024">2023-2024</option>
+                <option value="sy-2024-2025" class="sy-2024-2025">2024-2025</option>
+                <option value="sy-2025-2026" class="sy-2025-2026">2025-2026</option>
+               
+        
+            </select>
+        </div>
+        <div class="sem">
+            <label for="" class="sort">Sort by</label> <br>
+            <select name="sem" required id="seme" class="sy">
+                <option class="opt1"value="a-z" >A-Z</option>
+                <option value="2nd-semester">Z-A</option>
+               
+            </select>
+        </div>
+      </div>  
+        <button class="aw"> <i class="bx bxs-add-to-queue"></i> Add Admin</button> 
+      
+      <br>
+      <br>
+      <br>
+    <main>
+        
+        <article>
+        <section>
+
+       
+          
+               
+     
+            <table class="stud-list">
+                <tr>
+                   
+                  <th>
+                    TEACHER ID
+                  </th>
+                  <th>
+                    NAME
+                  </th>
+                  <th>
+                   STATUS
+                  </th>
+                <th>
+                    ACTION
+                </th>
+                
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>
+                        202126581
+                    </td>
+                   
+                    <td>
+                        Marshall Law Kena
+                    </td>
+                    <td>
+                        Registered
+                    </td>
+                    <td>
+                        <button class="aw"> <i class="bx bxs-user-x"></i> Remove</button>
+                       
+                    </td>
+                  
+                   
+                </tr>
+                    
+                <tr>
+                    <td>
+                        202198365
+                    </td>
+                    <td>
+                        Lebron Kazuyi Bob                
+                       </td>
+                       <td>
+                        Not Registered
+                       </td>
+                       <td>
+                        <button class="aw"> <i class="bx bxs-user-x"></i> Remove</button>
+
+                       </td>
+                  
+                <tr>
+                    <td>
+                        202129654
+                    </td>
+                    <td>
+                        Jack White
+                    </td>
+                    <td>
+                        Registered
+                    </td>
+                    <td>
+                        <button class="aw"> <i class="bx bxs-user-x"></i> Remove</button>
+
+                    </td>
+                    
+                
+                </tr>
+            </tbody>
+            </table>
+
+        </section>
+    </article>
+    </main>
+    <br><br><br>
+
+
+    <!--========== MAIN JS ==========-->
+    <script src="text.css/main.js"></script>
+</body>
+
+</html>
