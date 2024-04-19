@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="text.css/style.css">
     <link rel="stylesheet" href="text.css/style.scss">
     <link rel="stylesheet" href="called-in-slip.css">
+    <link rel="stylesheet" href="button.css">
 
 
     <title>Saint Micheal College of Caraga Guidance</title>
@@ -23,17 +24,17 @@
         <div class="header__container">
             <div class="header__search">
                 <input type="search" placeholder="Search" class="header__input">
-               
-            </i><i class='bx bx-search header__icon'> </i> 
-                 <i> <select name="" id="id-fname-lname" class="opt">
-                    <option value="">Search by</option>
-                    <option value="stud-id">Student ID</option>
-                    <option value="fname">First Name</option>
-                    <option value="lname">Last Name</option>
-                </select> </i>
+
+                </i><i class='bx bx-search header__icon'> </i>
+                <i> <select name="" id="id-fname-lname" class="opt">
+                        <option value="">Search by</option>
+                        <option value="stud-id">Student ID</option>
+                        <option value="fname">First Name</option>
+                        <option value="lname">Last Name</option>
+                    </select> </i>
             </div>
-                <i class='bx bx-menu' id="header-toggle"></i>
-            </div>
+            <i class='bx bx-menu' id="header-toggle"></i>
+        </div>
         </div>
     </header>
 
@@ -101,7 +102,7 @@
                     </div>
                     <a href="Case-note-log.html" class="nav__link">
                         <i class='bx bxs-check-square nav__icon'></i>
-                        <span class="nav__name">Case Notes  and <br> Agreement form</span>
+                        <span class="nav__name">Case Notes and <br> Agreement form</span>
                     </a>
                     <div class="nav__items">
 
@@ -125,7 +126,7 @@
                             </div>
 
                         </div>
-                      
+
                     </div>
 
                     <a href="pages-sign-in.html" class="nav__link nav__logout">
@@ -139,148 +140,163 @@
 
     <!--========== CONTENTS ==========-->
     <div class="right">
-        <div class="sy"> 
+        <div class="sy">
             <label for="" class="s-y">School Year</label><br>
             <select name="schoolyr" id="schoolyr" required class="sy">
                 <option value="sy-2023-2024" class="sy-2023-2024">2023-2024</option>
                 <option value="sy-2024-2025" class="sy-2024-2025">2024-2025</option>
                 <option value="sy-2025-2026" class="sy-2025-2026">2025-2026</option>
-               
-        
+
+
             </select>
         </div>
         <div class="sem">
             <label for="" class="sort">Sort by</label> <br>
             <select name="sem" required id="seme" class="sy">
-                <option class="opt1"value="a-z" >A-Z</option>
+                <option class="opt1" value="a-z">A-Z</option>
                 <option value="2nd-semester">Z-A</option>
-               
+
             </select>
         </div>
-      </div>   <label for="" class="add">Add: </label>
-        <button class="aw"> <i class="bx bxs-add-to-queue"></i> Called-in Slip </button>
-       
-      <br></button> 
-      <br>
-      <br>
+    </div> <label for="butt" class="add">Add: </label>
+    <button id="butt" class="button-4">Call-In Slip</button>
+
+    <br></button>
+    <br>
+    <br>
     <main>
-        
+
         <article>
-        <section>
+            <section>
 
-            <h1 style="text-align: center;">
-           Called-in Slip Log
-            </h1>
-          
-               
-     
-            <table class="stud-list">
-                <tr>
-                    <th>
-                        STUDENT ID
-                    </th>
-                  <th>
-                    NAME
-                  </th>
-                  <th>
-                    LEVEL
-                  </th>
-                  <th>
-                   GRADE/YEAR
-                  </th>
-                  <th>
-                    SECTION/PROGRAM
-                  </th>
-                  <th>
-                    DATE
-                  </th>
-                  <th>
-                 VIEW Called-in Slip
-                  </th>
-                
-                </tr>
-                <tbody>
+                <h1 style="text-align: center;">
+                    Called-in Slip Log
+                </h1>
+
+
+
+                <table class="stud-list">
                     <tr>
-                        <td>
-                        202134632
-                    </td>
-                   
-                    <td>
-                        Jackie  Chan
-                    </td>
-                    <td>
-                        Junior High
-                    </td>
-                    <td>
-                        9
-                    </td>
-                 
-                    <td>
-                        St. Anne                   
-                     </td>
-                    <td>
-                       
-                       08-11-2024
-                    </td>
-                    <td>
-                        <a href="called-slip.css"><abbr title="called-n-Slip"><span class="bx bxs-phone-call nav__icon"></span></abbr></a>
-                    </td>
-                </tr>
-                    
-                <tr>
-                    <td>
-                        202173532
-                    </td>
-                    <td>
-                        ALoha Beah                 
-                       </td>
-                       <td>
-                        College
-                       </td>
-                    <td>
-                    1
-                    </td>
-                    <td>
-                       BSBA - FM
-                    </td>
-                  
-                    <td>
-                     12-01-2024
-                    <td>
-                        <a href="called-slip.css"><abbr title="called-n-Slip"><span class="bx bxs-phone-call nav__icon"></span></abbr></a>
+                        <th>
+                            STUDENT ID
+                        </th>
+                        <th>
+                            NAME
+                        </th>
+                        <th>
+                            LEVEL
+                        </th>
+                        <th>
+                            GRADE/YEAR
+                        </th>
+                        <th>
+                            SECTION/PROGRAM
+                        </th>
+                        <th>
+                            SCHEDULE DATE
+                        </th>
+                        <th>
+                            SCHEDULE TIME
+                        </th>
+                        <th>
+                            VIEW Called-in Slip
+                        </th>
 
-                    </td>
-                <tr>
-                    <td>
-                        202129654
-                    </td>
-                    <td>
-                        John Carlo YO
-                    </td>
-                    <td>
-                        Senior High
-                    </td>
-                    <td>
-                        11  
-                    </td>
-                    <td>
-                       HUMSS
-                    </td>
-                 
-                    <td>
-                      1-31-2024
-                    </td> 
-                    <td>
-                        <a href="called-slip.css"><abbr title="called-n-Slip"><span class="bx bxs-phone-call nav__icon"></span></abbr></a>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>
+                                202129654
+                            </td>
+                            <td>
+                                John Carlo YO
+                            </td>
+                            <td>
+                                Senior High
+                            </td>
+                            <td>
+                                11
+                            </td>
+                            <td>
+                                HUMSS
+                            </td>
 
-                    </td>
-                   
-                </tr>
-            </tbody>
-            </table>
+                            <td>
+                                1-31-2024
+                            </td>
+                            <td>
+                                9:00 AM
+                            </td>
+                            <td>
+                                <a href="called-slip.css"><abbr title="called-n-Slip"><span
+                                            class="bx bxs-phone-call nav__icon"></span></abbr></a>
 
-        </section>
-    </article>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                202134632
+                            </td>
+
+                            <td>
+                                Jackie Chan
+                            </td>
+                            <td>
+                                Junior High
+                            </td>
+                            <td>
+                                9
+                            </td>
+
+                            <td>
+                                St. Anne
+                            </td>
+                            <td>
+                                12-10-2023
+                            </td>
+                            <td>
+                                3:00 PM
+                            </td>
+                            <td>
+                                <a href="called-slip.css"><abbr title="called-n-Slip"><span
+                                            class="bx bxs-phone-call nav__icon"></span></abbr></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                202173532
+                            </td>
+                            <td>
+                                ALoha Beah
+                            </td>
+                            <td>
+                                College
+                            </td>
+                            <td>
+                                1st
+                            </td>
+                            <td>
+                                BSBA - FM
+                            </td>
+                            <td>
+                                12-10-2023
+                            </td>
+                            <td>
+                                1:00 PM
+                            </td>
+                            <td>
+                                <a href="called-slip.css"><abbr title="called-n-Slip"><span
+                                            class="bx bxs-phone-call nav__icon"></span></abbr></a>
+
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </section>
+        </article>
     </main>
     <br><br><br>
 
