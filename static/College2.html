@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="text.css/style.css">
     <link rel="stylesheet" href="text.css/style.scss">
     <link rel="stylesheet" href="college2.css">
+    <link rel="stylesheet" href="case-note-log.css">
 
 
     <title>Saint Micheal College of Caraga Guidance</title>
@@ -21,12 +22,18 @@
     <!--========== HEADER MichiNowa ==========-->
     <header class="header">
         <div class="header__container">
-            <div class="header__search style">
-                <input type="search" placeholder="Search" class="header__input">
-                <i class='bx bx-search header__icon'> </i> <i> <img src="filter.png" alt=""> </i>
+            <div class="header__search">
+                <input type="search" placeholder="Search" class="header__input"></i>
+                <i class='bx bx-search header__icon'> </i>
+                <i> <select name="" id="id-fname-lname" class="opt">
+                        <option value="">Search by</option>
+                        <option value="stud-id">Student ID</option>
+                        <option value="fname">First Name</option>
+                        <option value="lname">Last Name</option>
+                    </select> </i>
             </div>
            
-            <i class='bx bx-menu' id="header-toggle"></i>
+ 
         </div>
         </div>
     </header>
@@ -44,7 +51,10 @@
                     <div class="nav__items">
                         <h3 class="nav__subtitle">Menu</h3>
 
-
+                        <a href="dashboard.html" class="nav__link">
+                            <i class='bx bxs-dashboard nav__icon'></i>
+                            <span class="nav__name">Dashboard</span>
+                        </a>
 
                         <div class="nav__dropdown">
                             <a href="" class="nav__link">
@@ -69,8 +79,8 @@
                             </a>
                             <div class="nav__dropdown-collapse">
                                 <div class="nav__dropdown-content">
-                                    <a href="Grade7.html" class="nav__dropdown-item">Grade 11</a>
-                                    <a href="Grade8.html" class="nav__dropdown-item">Grade 12</a>
+                                    <a href="Grade11.html" class="nav__dropdown-item">Grade 11</a>
+                                    <a href="Grade12.html" class="nav__dropdown-item">Grade 12</a>
                                 </div>
                             </div>
                         </div>
@@ -82,17 +92,17 @@
                             </a>
                             <div class="nav__dropdown-collapse">
                                 <div class="nav__dropdown-content">
-                                    <a href="Grade7.html" class="nav__dropdown-item">1st Year</a>
-                                    <a href="Grade8.html" class="nav__dropdown-item">2nd Year</a>
-                                    <a href="Grade9.html" class="nav__dropdown-item">3rd Year</a>
-                                    <a href="Grade10.html" class="nav__dropdown-item">4th Year</a>
+                                    <a href="College1.html" class="nav__dropdown-item">1st Year</a>
+                                    <a href="College2.html" class="nav__dropdown-item">2nd Year</a>
+                                    <a href="College3.html" class="nav__dropdown-item">3rd Year</a>
+                                    <a href="College4.html" class="nav__dropdown-item">4th Year</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a href="Assessmentform.html" class="nav__link">
+                    <a href="Case-note-log.html" class="nav__link">
                         <i class='bx bxs-check-square nav__icon'></i>
-                        <span class="nav__name">Assessment Form</span>
+                        <span class="nav__name">Case Notes  and <br> Agreement form</span>
                     </a>
                     <div class="nav__items">
 
@@ -116,10 +126,7 @@
                             </div>
 
                         </div>
-                        <a href="dashboard.html" class="nav__link">
-                            <i class='bx bxs-dashboard nav__icon'></i>
-                            <span class="nav__name">Dashboard</span>
-                        </a>
+                      
                     </div>
 
                     <a href="pages-sign-in.html" class="nav__link nav__logout">
@@ -128,18 +135,63 @@
                     </a>
         </nav>
     </div>
-
-
     <!--========== CONTENTS ==========-->
+    <div class="right">
+        <div class="sy"> 
+            <label for="" class="s-y">School Year</label><br>
+            <select name="schoolyr" id="schoolyr" required class="sy">
+                <option value="sy-2023-2024" class="sy-2023-2024">2023-2024</option>
+                <option value="sy-2024-2025" class="sy-2024-2025">2024-2025</option>
+                <option value="sy-2025-2026" class="sy-2025-2026">2025-2026</option>
+               
+        
+            </select>
+        </div>
+        <div class="sem">
+           <label for="" class="sort">Sort by</label> <br>
+            <select name="sem" required id="seme" class="sy">
+                <option class="opt1"value="a-z" >Name (A-Z)</option>
+                <option value="2nd-semester">Name (Z-A)</option>
+               
+            </select>
+        </div>
+        <div class="strand">
+            <label for="" class="strnd">Strand</label> <br>
+            <select name="strand" id="stranded" class="courses">
+                <option value="">Course/Program</option>
+                <option value="bsed-education" class="bsed-education">BSED - Education</option>
+                <option value="BSED-science" class="bsed-science">BSED - Science</option>
+                <option value="bsit" class="bsit">BSIT</option>
+                <option value="bsba-fm" class="bsba-fm">BSBA - FM</option>
+                <option value="bsba-hrm" class="bsba-hrm">BSBA - HRM</option>
+                <option value="bsba-mm" class="bsba-mm">BSBA - MM</option>
+                <option value="blis" class="blis">BLIS</option>
+                <option value="bscs" class="bscs">BSCS</option>
+                <option value="bstm" class="bstm">BSTM</option>
+                <option value="bshm" class="bshm">BSHM</option>
+                <option value="beed" class="beed">BEED</option>
+                <option value="bped" class="bped">BPED</option>
+                <option value="btvted" class="btvted">BTVTED</option>
+                <option value="ab" class="ab">AB - English</option>
+                <option value="bs-crim" class="bs-crim">BS - CRIM</option>
+                <option value="bpa" class="bpa">BPA</option>
+            </select>
+        </div>
+      </div>
+         <br>
+    <br>
+    <br>
+ 
     <main>
             
         <article>
             <section>
 
                 <h1 style="text-align: center;">
-                    2nd Year College Student
+                2nd Year College Student
                 </h1>
-                
+
+
 
                 <table class="stud-list">
                     <tr>

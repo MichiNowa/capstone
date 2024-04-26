@@ -12,32 +12,29 @@
     <link rel="stylesheet" href="text.css/style.css">
     <link rel="stylesheet" href="text.css/style.scss">
     <link rel="stylesheet" href="grade11.css">
+    <link rel="stylesheet" href="case-note-log.css">
 
 
     <title>Saint Micheal College of Caraga Guidance</title>
 </head>
 
 <body>
-    <!--========== HEADER ==========-->
+    <!--========== HEADER MichiNowa ==========-->
     <header class="header">
         <div class="header__container">
-            <table class="smcc-header">
-                <tr>
-                    <td class="logo">
-                        <img src="/smcc-img/logos.gif" alt="SMCC Logo">
-                    </td>
-                    <td class="smcc-address-tel"> <h1 class="smcc">Saint Micheal College of Caraga</h1>Brgy. 4, Nasipit, Agusandel Norte, Philippines<br>
-                        <a href="tel:+63085343-3251">Tel. Nos. +63 085343-3251</a>/ <a href="tel:+63085283-3113">+63 085283-3113</a><a href="tel:"> Fax No.+63 085808-0892</a><br>
-                        <a href="http://www.smccnasipit.edu.ph">www.smccnasipit.edu.ph</a>
-                     </td>
-                
-                        <td class="socotec">
-                            <img src="/smcc-img/1.jpg" alt="SOCOTEC">
-                        </td>
-                </tr>
-               </table>
-                <i class='bx bx-menu' id="header-toggle"></i>
+            <div class="header__search">
+                <input type="search" placeholder="Search" class="header__input"></i>
+                <i class='bx bx-search header__icon'> </i>
+                <i> <select name="" id="id-fname-lname" class="opt">
+                        <option value="">Search by</option>
+                        <option value="stud-id">Student ID</option>
+                        <option value="fname">First Name</option>
+                        <option value="lname">Last Name</option>
+                    </select> </i>
             </div>
+           
+ 
+        </div>
         </div>
     </header>
 
@@ -46,7 +43,7 @@
         <nav class="nav__container">
             <div>
                 <a href="#" class="nav__link nav__logo">
-                   <img src="/smcc-img/SMCC GC-logo.jpg" alt="Guidance Logo" class="guidance-logo">
+                    <img src="/smcc-img/SMCC GC-logo.jpg" alt="Guidance Logo" class="guidance-logo">
                     <span class="nav__logo-name">SMCC GUIDANCE</span>
                 </a>
 
@@ -54,69 +51,58 @@
                     <div class="nav__items">
                         <h3 class="nav__subtitle">Menu</h3>
 
-                    
+                        <a href="dashboard.html" class="nav__link">
+                            <i class='bx bxs-dashboard nav__icon'></i>
+                            <span class="nav__name">Dashboard</span>
+                        </a>
 
                         <div class="nav__dropdown">
                             <a href="" class="nav__link">
-                                <i class='bx bx-user nav__icon'></i>
-                                <span class="nav__name">Student's Profile</span>
+                                <i class='bx bxs-user-detail nav__icon'></i>
+                                <span class="nav__name">Junior High Profile</span>
                                 <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
                             </a>
-
                             <div class="nav__dropdown-collapse">
                                 <div class="nav__dropdown-content">
-                                    <div class="nav__dropdown">
-                                        <a href="#" class="nav__link">
-                                            <span class="nav__name">Junior High</span>
-                                            <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
-                                        </a>
-
-                                        <div class="nav__dropdown-collapse">
-                                            <div class="nav__dropdown-content">
-                                                <a href="Grade7.html" class="nav__dropdown-item">Grade 7</a>
-                                                <a href="Grade8.html" class="nav__dropdown-item">Grade 8</a>
-                                                <a href="Grade9.html" class="nav__dropdown-item">Grade 9</a>
-                                                <a href="Grade10.html" class="nav__dropdown-item">Grade 10</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="nav__dropdown">
-                                        <a href="#" class="nav__link">
-                                           
-                                            <span class="nav__name">Senior High</span>
-                                            <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
-                                        </a>
-
-                                        <div class="nav__dropdown-collapse">
-                                            <div class="nav__dropdown-content">
-                                                <a href="Grade11.html" class="nav__dropdown-item">Grade 11</a>
-                                                <a href="Grade12.html" class="nav__dropdown-item">Grade 12</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="nav__dropdown">
-                                        <a href="#" class="nav__link">
-                                            <span class="nav__name">College</span>
-                                            <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
-                                            
-                                        </a>
-
-                                        <div class="nav__dropdown-collapse">
-                                            <div class="nav__dropdown-content">
-                                                <a href="College1.html" class="nav__dropdown-item">1st Year</a>
-                                                <a href="College2.html" class="nav__dropdown-item">2nd Year</a>
-                                                <a href="College3.html" class="nav__dropdown-item">3rd Year</a>
-                                                <a href="College4.html" class="nav__dropdown-item">4th Year</a>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <a href="Grade7.html" class="nav__dropdown-item">Grade 7</a>
+                                    <a href="Grade8.html" class="nav__dropdown-item">Grade 8</a>
+                                    <a href="Grade9.html" class="nav__dropdown-item">Grade 9</a>
+                                    <a href="Grade10.html" class="nav__dropdown-item">Grade 10</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav__dropdown">
+                            <a href="" class="nav__link">
+                                <i class='bx bxs-user-detail nav__icon'></i>
+                                <span class="nav__name">Senior High Profile</span>
+                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                            </a>
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="Grade11.html" class="nav__dropdown-item">Grade 11</a>
+                                    <a href="Grade12.html" class="nav__dropdown-item">Grade 12</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav__dropdown">
+                            <a href="" class="nav__link">
+                                <i class='bx bxs-user-detail nav__icon'></i>
+                                <span class="nav__name">College Profile</span>
+                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                            </a>
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="College1.html" class="nav__dropdown-item">1st Year</a>
+                                    <a href="College2.html" class="nav__dropdown-item">2nd Year</a>
+                                    <a href="College3.html" class="nav__dropdown-item">3rd Year</a>
+                                    <a href="College4.html" class="nav__dropdown-item">4th Year</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a href="Assessmentform.html" class="nav__link">
+                    <a href="Case-note-log.html" class="nav__link">
                         <i class='bx bxs-check-square nav__icon'></i>
-                        <span class="nav__name">Assessment Form</span>
+                        <span class="nav__name">Case Notes  and <br> Agreement form</span>
                     </a>
                     <div class="nav__items">
 
@@ -130,141 +116,187 @@
                             <div class="nav__dropdown-collapse">
                                 <div class="nav__dropdown-content">
                                     <a href="Casenotes.html" class="nav__dropdown-item">Case Notes</a>
-                                        <a href="Agreementform.html" class="nav__dropdown-item">Agreement Forms</a>
-                                        <a href="Clientcounselingfeedback.html" class="nav__dropdown-item">Client's Counseling Feedback</a>
-                                        <a href="Called-slip.html" class="nav__dropdown-item">Called slip</a>
-                                        <a href="Referralforms.html" class="nav__dropdown-item">Referral Form</a>
+                                    <a href="Agreementform.html" class="nav__dropdown-item">Agreement Forms</a>
+                                    <a href="Clientcounselingfeedback.html" class="nav__dropdown-item">Client's
+                                        Counseling Feedback</a>
+                                    <a href="Called-slip.html" class="nav__dropdown-item">Called slip</a>
+                                    <a href="Referralforms.html" class="nav__dropdown-item">Referral Form</a>
+                                </div>
+
                             </div>
 
                         </div>
+                      
+                    </div>
 
-                       
-                    </div><a href="dashboard.html" class="nav__link">
-                        <i class='bx bxs-dashboard nav__icon'></i>
-                        <span class="nav__name">Dashboard</span>
+                    <a href="pages-sign-in.html" class="nav__link nav__logout">
+                        <i class='bx bx-log-out nav__icon'></i>
+                        <span class="nav__name">Log Out</span>
                     </a>
-                </div>
-
-                <a href="pages-sign-in.html" class="nav__link nav__logout">
-                    <i class='bx bx-log-out nav__icon'></i>
-                    <span class="nav__name">Log Out</span>
-                </a>
         </nav>
     </div>
-
-
     <!--========== CONTENTS ==========-->
+    <div class="right">
+        <div class="sy"> 
+            <label for="" class="s-y">School Year</label><br>
+            <select name="schoolyr" id="schoolyr" required class="sy">
+                <option value="sy-2023-2024" class="sy-2023-2024">2023-2024</option>
+                <option value="sy-2024-2025" class="sy-2024-2025">2024-2025</option>
+                <option value="sy-2025-2026" class="sy-2025-2026">2025-2026</option>
+               
+        
+            </select>
+        </div>
+        <div class="sem">
+           <label for="" class="sort">Sort by</label> <br>
+            <select name="sem" required id="seme" class="sy">
+                <option class="opt1"value="a-z" >Name (A-Z)</option>
+                <option value="2nd-semester">Name (Z-A)</option>
+               
+            </select>
+        </div>
+        <div class="strand">
+            <label for="" class="strnd">Strand</label> <br>
+            <select name="strand" id="stranded" class="courses">
+                <option value="">STRAND</option>
+                <option value="STEM" class="bsed-education">STEM</option>
+                <option value="EIM" class="bsed-science">EIM</option>
+                <option value="ICT" class="bsit">ICT</option>
+                <option value="GAS" class="bsba-fm">GAS</option>
+                <option value="HUMMS" class="bsba-hrm">HUMMS</option>
+                <option value="ABM" class="bsba-mm">ABM</option>
+                <option value="PRE-MARITIME">PRE-MARITIME</option>
+              
+            
+            </select>
+        </div>
+      </div>
+         <br>
+    <br>
+    <br>
+ 
     <main>
-        
+            
         <article>
-        <section>
+            <section>
 
-            <h1 style="text-align: center;">
-                Grade 11 Student            </h1>
-          
-               
-        
-            <table class="stud-list">
-                <tr>
-                    <th>
-                        STUDENT ID
-                    </th>
-                  <th>
-                    NAME
-                  </th>
-                  <th>
-                    GENDER
-                  </th>
-                  <th>
-                    STRAND
-                  </th>
-               
-                  <th>
-                    ASSESSMENT
-                  </th>
-                  <th>
-                    VIEW PROFILE/SUMMARY
-                  </th>
-                
-                </tr>
-                <tbody>
+                <h1 style="text-align: center;">
+                    Grade 11 Student
+                </h1>
+
+
+
+                <table class="stud-list">
                     <tr>
-                        <td>
-                        202134632
-                    </td>
-                   
-                    <td>
-                        Lhil Michi Guno
-                    </td>
-                    <td>
-                        F
-                    </td>
-                    <td>
-                       STEM
-                    </td>
-                  
-                    <td>
-                        <button type="button" style="color: white; background-color: red;"> </button>
-                    </td>
-                    <td>
-                        <a href=""><abbr title="Student Profile"><span class="bx bxs-user-detail nav__icon"></span></abbr></a>/ <a href=""><abbr title="Summary"><span class="bx bxs-file nav-icon"></span></abbr></a>                    </td>
-                </tr>
-                    
-                <tr>
-                    <td>
-                        202173532
-                    </td>
-                    <td>
-                        ArGunz Jay Gunz
-                    </td>
-                    <td>
-                        M
-                    </td>
-                    <td>
-                       HUMSS
-                    </td>
-                   
-                    <td>
-                       <button type="button" style="color: white; background-color: orange;"></button>
-                    </td> 
-                    <td>
-                        <a href=""><abbr title="Student Profile"><span class="bx bxs-user-detail nav__icon"></span></abbr></a>/ <a href=""><abbr title="Summary"><span class="bx bxs-file nav-icon"></span></abbr></a>                    </td>
-                <tr>
-                    <td>
-                        202129654
-                    </td>
-                    <td>
-                        Mae Lae Hae
-                    </td>
-                    <td>
-                        F
-                    </td>
-                    <td>
-                       EIM
-                    </td>
-                 
-                    <td>
-                       <button type="button" style="color: white;"></button>
-                    </td> 
-                    <td>
-                        <a href=""><abbr title="Student Profile"><span class="bx bxs-user-detail nav__icon"></span></abbr></a>/ <a href=""><abbr title="Summary"><span class="bx bxs-file nav-icon"></span></abbr></a>                    </td>
-                   
-                </tr>
-            </tbody>
-            </table>
+                        <th>
+                            STUDENT ID
+                        </th>
+                        <th>
+                            NAME
+                        </th>
+                        <th>
+                            GENDER
+                        </th>
+                        <th>
+                            COURSE
+                        </th>
+                        <th>
+                            DEPARTMENT
+                        </th>
+                        <th>
+                            ASSESSMENT
+                        </th>
+                        <th>
+                            VIEW PROFILE/SUMMARY
+                        </th>
 
-        </section>
-    </article>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>
+                                202134632
+                            </td>
+
+                            <td>
+                                Michi Nowa Bataluna
+                            </td>
+                            <td>
+                                F
+                            </td>
+                            <td>
+                                BSIT
+                            </td>
+                            <td>
+                                CCIS
+                            </td>
+                            <td>
+                                <button type="button" style="color: white; background-color: red;"> </button>
+                            </td>
+                            <td>
+                                <a href="student-profile.html"><abbr title="Student Profile"><span
+                                            class="bx bxs-user-detail nav__icon"></span></abbr></a>/ <a
+                                    href="Summary.html"><abbr title="Summary"><span
+                                            class="bx bxs-file nav-icon"></span></abbr></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                202173532
+                            </td>
+                            <td>
+                                Arvin Jay Guno
+                            </td>
+                            <td>
+                                M
+                            </td>
+                            <td>
+                                BSIT
+                            </td>
+                            <td>
+                                CCIS
+                            </td>
+                            <td>
+                                <button type="button" style="color: white; background-color: orange;"></button>
+                            </td>
+                            <td>
+                                <a href=""><abbr title="Student Profile"><span
+                                            class="bx bxs-user-detail nav__icon"></span></abbr></a>/ <a href=""><abbr
+                                        title="Summary"><span class="bx bxs-file nav-icon"></span></abbr></a>
+                            </td>
+                        <tr>
+                            <td>
+                                202129654
+                            </td>
+                            <td>
+                                Lhil Kim Mendoza
+                            </td>
+                            <td>
+                                F
+                            </td>
+                            <td>
+                                BSIT
+                            </td>
+                            <td>
+                                CCIS
+                            </td>
+                            <td>
+                                <button type="button" style="color: white;"></button>
+                            </td>
+                            <td>
+                                <a href=""><abbr title="Student Profile"><span
+                                            class="bx bxs-user-detail nav__icon"></span></abbr></a>/ <a href=""><abbr
+                                        title="Summary"><span class="bx bxs-file nav-icon"></span></abbr></a>
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+            </section>
+        </article>
     </main>
-    <br><br><br>
-    <footer>
-        <img src="/smcc-img/formlabel2.png" alt="" style="width: 200px; float: left;"  class="form-label">
-        <br>
-        <br>
-        <br>
-        <img src="/smcc-img/form-footer.png" alt="footer" class="footer">
-     </footer>
-
+  
 
 
     <!--========== MAIN JS ==========-->
