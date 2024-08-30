@@ -14,6 +14,14 @@
     <link rel="stylesheet" href="super-user.css">
     <link rel="stylesheet" href="/static/button.css">
 
+    <style>
+        .center {
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+    </style>
+
 
     <title>Saint Micheal College of Caraga Guidance</title>
 </head>
@@ -24,7 +32,7 @@
         <div class="header__container">
             <h2 style="text-align: center;">
                 ALLOWED ADMINS
-                 </h2>
+            </h2>
         </div>
     </header>
 
@@ -36,123 +44,114 @@
                     <img src="/smcc-img/SMCC GC-logo.jpg" alt="Guidance Logo" class="guidance-logo">
                     <span class="nav__logo-name">SMCC GUIDANCE</span>
                 </a>
-                    
-                    </div>
-                    <a href="Case-note-log.html" class="nav__link">
-                        <i class='bx bxs-user-account nav__icon'></i>
-                        <span class="nav__name">View Admin <br> Accounts</span>
-                    </a>
-                 
 
-                    <a href="pages-sign-in.html" class="nav__link nav__logout">
-                        <i class='bx bx-log-out nav__icon'></i>
-                        <span class="nav__name">Log Out</span>
-                    </a>
+            </div>
+            <a href="Super-user.html" class="nav__link">
+                <i class='bx bxs-user-account nav__icon'></i>
+                <span class="nav__name">View Admin <br> Accounts</span>
+            </a>
+
+
+            <a href="" class="nav__link nav__logout">
+                <i class='bx bx-log-out nav__icon'></i>
+                <span class="nav__name">Log Out</span>
+            </a>
         </nav>
     </div>
 
     <!--========== CONTENTS ==========-->
     <div class="right">
-        
-        <div class="sem">
-            <label for="" class="sort">Sort by</label> <br>
-            <select name="sem" required id="seme" class="sy">
-                <option class="opt1"value="a-z">Name (A-Z)</option>
-                <option value="2nd-semester">Name (Z-A)</option>
-               
+
+        <div class="">
+            <label for="" class="">Sort by</label> <br>
+            <select name="" required id="" class="">
+                <option class="" value="a-z">Name (A-Z)</option>
+                <option value="">Name (Z-A)</option>
+
             </select>
         </div>
-      </div>  
-        <button class="button-4"><i class="bx bxs-add-to-queue"></i>Add Admin</button>
-      
-      <br>
-      <br>
-      <br>
+    </div>
+    <button class="button-4" onclick="window.location.href='add-admin.html'"><i class="bx bxs-add-to-queue"></i>Add
+        Admin</button>
     <main>
-        
-        <article>
-        <section>
 
-       
-          
-               
-     
-            <table class="stud-list">
-                <tr>
-                   
-                  <th>
-                    TEACHER ID
-                  </th>
-                  <th>
-                    NAME
-                  </th>
-                  <th>
-                   STATUS
-                  </th>
-                <th>
-                    ACTION
-                </th>
-                
-                </tr>
-                <tbody>
+        <div class="row">
+            <div class="col center">
+                <table class="">
                     <tr>
-                        <td>
-                        202126581
-                    </td>
-                   
-                    <td>
-                        Marshall Law Kena
-                    </td>
-                    <td>
-                        Registered
-                    </td>
-                    <td>
-                        <button class="button-4">Remove Admin</button>
-                       
-                    </td>
-                  
-                   
-                </tr>
-                    
-                <tr>
-                    <td>
-                        202198365
-                    </td>
-                    <td>
-                        Lebron Kazuyi Bob                
-                       </td>
-                       <td>
-                        Not Registered
-                       </td>
-                       <td>
-                        <button class="button-4">Remove Admin</button>
+                        <th>
+                            TEACHER ID
+                        </th>
+                        <th>
+                            NAME
+                        </th>
+                        <th>
+                            STATUS
+                        </th>
+                        <th>
+                            ACTION
+                        </th>
 
-                       </td>
-                  
-                <tr>
-                    <td>
-                        202129654
-                    </td>
-                    <td>
-                        Jack White
-                    </td>
-                    <td>
-                        Registered
-                    </td>
-                    <td>
-                        <button class="button-4">Remove Admin</button>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>
+                                202126581
+                            </td>
 
-                    </td>
-                    
-                
-                </tr>
-            </tbody>
-            </table>
+                            <td>
+                                Marshall Law Kena
+                            </td>
+                            <td>
+                                Registered
+                            </td>
+                            <td>
+                                <button class="button-4">Remove Admin</button>
 
-        </section>
-    </article>
+                            </td>
+
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                                202198365
+                            </td>
+                            <td>
+                                Lebron Kazuyi Bob
+                            </td>
+                            <td>
+                                Not Registered
+                            </td>
+                            <td>
+                                <button class="button-4">Remove Admin</button>
+
+                            </td>
+
+                        <tr>
+                            <td>
+                                202129654
+                            </td>
+                            <td>
+                                Jack White
+                            </td>
+                            <td>
+                                Registered
+                            </td>
+                            <td>
+                                <button class="button-4">Remove Admin</button>
+
+                            </td>
+
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
     </main>
-    <br><br><br>
+
 
 
     <!--========== MAIN JS ==========-->
